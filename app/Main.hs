@@ -2,7 +2,9 @@ module Main where
 
 import qualified MyLib (someFunc)
 
+
+
 main :: IO ()
 main = do
-  putStrLn "Hello, Haskell!"
+  print (zip "abcde" [1..])
   MyLib.someFunc
